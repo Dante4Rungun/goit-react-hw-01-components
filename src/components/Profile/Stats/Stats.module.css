@@ -1,0 +1,33 @@
+.stats {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: rgba(217, 229, 235, 0.6);
+    border-top: 1px solid rgb(165, 165, 165);
+    padding: 30px;
+}
+
+.stats li + li {
+    border-left: 1px solid rgb(165, 165, 165);
+}
+
+.label {
+    font-size: 18px;
+    color: rgb(165, 165, 165);
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+}
