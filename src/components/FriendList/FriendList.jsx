@@ -1,5 +1,5 @@
 import styled from './FriendList.module.css'
-import PropTypes, { object } from 'prop-types';
+import PropTypes from 'prop-types';
 
 function isOnline(bool) {
   const color = bool === true ? '#00FF77' : '#FF0000'

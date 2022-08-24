@@ -1,8 +1,8 @@
 import styled from './TransactionHistory.module.css'
-import PropTypes, { object } from 'prop-types';
+import PropTypes from 'prop-types';
 
 const ChangeRowColor = (index) => {
-  if ((index + 1) % 2 != 0) {
+  if ((index + 1) % 2 !== 0) {
     return '#ffffff'
   }
   else {

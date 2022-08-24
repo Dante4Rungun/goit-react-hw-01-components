@@ -2,7 +2,6 @@ import { Profile } from "./Profile/Profile";
 import user from "./Profile/ProfileInfo/user.json"
 import { Statistics } from "./Statistics/Statistics";
 import data from "./Statistics/StatiscticsInfo/data.json"
-import { flexDirection } from "styled-system";
 import { FriendList } from "./FriendList/FriendList";
 import friends from "./FriendList/FriendListInfo/friends.json"
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
@@ -18,7 +17,6 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
-        display: 'flex',
         flexDirection: 'column'
       }}
       >

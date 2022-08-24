@@ -1,6 +1,5 @@
 import styled from './Statistics.module.css'
 import PropTypes from 'prop-types';
-import { backgroundColor } from 'styled-system';
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
